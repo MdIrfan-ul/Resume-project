@@ -93,9 +93,6 @@ section:nth-child(2n + 1) {
     background-color: white;
 }
 
-section:target {
-    /* empty can add effects later */
-}
 
 
 .section-heading {
