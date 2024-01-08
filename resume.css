@@ -228,7 +228,7 @@ section:nth-child(2n + 1) {
     content: '';
     position: absolute;
     top: 30%;
-    left: -13%;
+    left: -9%;
     border-radius: 50%;
     width: 0.5rem;
     height: 0.5rem;
@@ -290,7 +290,6 @@ section:nth-child(2n + 1) {
     left: 12% !important;
     width: 80%;
     }
-    }
     html{
         font-size: 15px;
     }
@@ -298,12 +297,24 @@ section:nth-child(2n + 1) {
     left: -12% !important;
     font-size: 15px;
     }
+    .t-2{
+        opacity:0;
+    }
+    .t-2:hover {
+        opacity:1;
+        color:white;
+    }
+}
 .timeline-traveller {
     position: sticky;
     top: 30%;
     transform: rotate(90deg);
     z-index: 2;
 }
+    
+
+    
+
 
 /* Portfolio Section */
 
