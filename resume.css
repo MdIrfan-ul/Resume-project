@@ -297,6 +297,16 @@ section:nth-child(2n + 1) {
     left: -12% !important;
     font-size: 15px;
     }
+    .portfolio-details {
+        /* display: none; */
+        transition: all 0.5s ease-in-out;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        color: transparent;
+        text-align: center;
+        padding: 10px;}
     .t-2{
         opacity:0;
     }
